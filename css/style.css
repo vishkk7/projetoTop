@@ -10,6 +10,21 @@
     --bg-color3: linear-gradient(to right, #CD5C5C, #0000FF);
   }
 
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+  }
+  body{
+   width: 100%;
+   background: var(--bg-color4);
+  }
+
   .video-fundo {
     position: absolute;
     top: 50%;
