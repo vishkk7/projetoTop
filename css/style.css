@@ -25,6 +25,37 @@
    background: var(--bg-color4);
   }
 
+  header {
+    position: fixed;
+    width: 100%;
+    padding: 40px 60px;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--bg-color2);
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  nav ul li a {
+    color: var(--second-color);
+    font-size: 1.2rem;
+    transition: all 0.1s ease;
+  }
+  nav ul li a:hover {
+    border-bottom: 3px solid var(--text-color4);
+  }
+
   .video-fundo {
     position: absolute;
     top: 50%;
@@ -35,3 +66,4 @@
     transform: translate(-50%, -50%);
     z-index: -1; /* Colocar o vídeo atrás do conteúdo */
   }
+
